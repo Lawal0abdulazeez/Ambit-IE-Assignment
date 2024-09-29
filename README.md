@@ -130,6 +130,9 @@ Make sure you have the following installed:
 
 4. Open your browser and navigate to the local URL provided by Streamlit to interact with the app.
 
+5. Run visit the web version deployed on render.com: [web app]( https://ambit-ie-assignment.onrender.com/)
+
+
 ---
 
 ## License
