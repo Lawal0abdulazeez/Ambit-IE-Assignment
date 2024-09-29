@@ -450,10 +450,10 @@ tax_rate = 0.25
 
 # Calculate and display DCF valuation
 intrinsic_pe = dcf_valuation(cost_of_capital, roce, growth_rate, high_growth_years, fade_years, terminal_growth_rate, tax_rate)
-st.write(f"Intrinsic PE: {intrinsic_pe}")
+st.markdown(f"### **Intrinsic PE: {intrinsic_pe}**")
 
 overvaluation = round(calculate_degree_of_overvaluation(float(current_pe), float(pe_ratio), intrinsic_pe), 2) * 100
-st.write(f"Degree of overvaluation: {overvaluation}%")
+st.markdown(f"### **Degree of overvaluation: {overvaluation}%**")
 
 
 # Contact information
